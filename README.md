@@ -2,12 +2,12 @@
 
 Easy and intuitive tweening tool for Unity, based on DOTween.
 
-Several features:
+Package not available yet.
 
-#### Define tweens in components
+#### Tweens defined in components
 ![Component](img/component.png)
 
-#### Intuitive set up of groups and sequences 
+#### Intuitive set up of groups and sequences in hierarchy
 ![Hierarchy](img/hierarchy.png)
 
 #### Instant preview in editor mode (no side effects!)
@@ -16,7 +16,7 @@ Several features:
 #### Quick type switch from context menu
 ![Switch](img/switch.png)
 
-#### Create your own tweens with a few lines of code
+#### Your own custom tweens in a few lines of code
 ```csharp
 [TypeCategory(TweenCategory.Basic)]
 public class TweenScale : TweenCustomPlayable
@@ -42,3 +42,7 @@ public class TweenScale : TweenCustomPlayable
     }
 }
 ```
+
+### Dependencies
+
+- https://github.com/thejoun/type-switcher
