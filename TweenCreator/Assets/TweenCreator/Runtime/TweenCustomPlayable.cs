@@ -8,11 +8,12 @@ namespace TweenCreator
     {
         private enum EaseType
         {
-            DoTween,
+            DOTween,
             AnimationCurve
         }
         
-        [SerializeField] private bool rewindOnAwake;
+        // todo move to TweenPlayer
+        // [SerializeField] private bool rewindOnAwake;
         
         // todo hide fields
         [SerializeField] private EaseType easeType;
@@ -28,16 +29,16 @@ namespace TweenCreator
 
         protected virtual bool IsRelative => false;
 
-        private bool IsDoTweenEaseType => easeType == EaseType.DoTween;
+        private bool IsDoTweenEaseType => easeType == EaseType.DOTween;
         private bool IsAnimationCurveEaseType => easeType == EaseType.AnimationCurve;
         
-        protected virtual void Awake()
-        {
-            if (rewindOnAwake)
-            {
-                Rewind();
-            }
-        }
+        // protected virtual void Awake()
+        // {
+        //     if (rewindOnAwake)
+        //     {
+        //         Rewind();
+        //     }
+        // }
 
         protected void PlaySingleTween(Tween tween, bool isForward = true)
         {

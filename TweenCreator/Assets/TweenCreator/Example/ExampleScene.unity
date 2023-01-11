@@ -255,10 +255,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ignoreTimescale: 0
-  rewindOnStart: 0
-  playOnStart: 0
-  rewindOnEnable: 0
-  playOnEnable: 0
   dontReverse: 1
   playables:
   - {fileID: 978425051}
@@ -400,14 +396,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ignoreTimescale: 0
-  rewindOnAwake: 0
   easeType: 0
   ease: 6
   animationCurveEase: {fileID: 0}
   duration: 0.3
   delay: 0
   tr: {fileID: 74071040}
-  target: {x: 0, y: 1, z: 0}
+  target: {x: 0, y: 0.5, z: 0}
   origin: {x: 0, y: 0, z: 0}
 --- !u!1 &978425049
 GameObject:
@@ -456,10 +451,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ignoreTimescale: 0
-  rewindOnStart: 0
-  playOnStart: 0
-  rewindOnEnable: 0
-  playOnEnable: 0
   dontReverse: 0
   playables:
   - {fileID: 622928375}
@@ -509,7 +500,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ignoreTimescale: 0
-  rewindOnAwake: 0
   easeType: 1
   ease: 6
   animationCurveEase: {fileID: 11400000, guid: 0876ca97c538be64eb1835f8868630f5, type: 2}
@@ -563,7 +553,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ignoreTimescale: 0
-  rewindOnAwake: 0
   easeType: 1
   ease: 6
   animationCurveEase: {fileID: 11400000, guid: 44f1f8405ecaad84b812b5063eaae36c, type: 2}

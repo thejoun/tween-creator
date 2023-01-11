@@ -194,6 +194,7 @@ namespace TweenCreator
         }
 #endif
         
+        // todo gather tweens automatically from hierarchy
         protected List<TweenPlayable> FindPlayables()
         {
             var playables = new List<TweenPlayable>();

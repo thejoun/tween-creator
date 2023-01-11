@@ -14,12 +14,13 @@ namespace Lichtcore.Tweening
     [TypeCategory(TweenCategory.Core)]
     public class TweenGroup : TweenPlayable
     {
-        [Header("Group")]
-        [SerializeField] private bool rewindOnStart;
-        [SerializeField] private bool playOnStart;
-        [SerializeField] private bool rewindOnEnable;
-        [SerializeField] private bool playOnEnable;
+        // todo create a TweenPlayer
+        // [SerializeField] private bool rewindOnStart;
+        // [SerializeField] private bool playOnStart;
+        // [SerializeField] private bool rewindOnEnable;
+        // [SerializeField] private bool playOnEnable;
 
+        [Header("Group")]
         [SerializeField] private bool dontReverse;
         
         [SerializeField] protected List<TweenPlayable> playables;
@@ -39,31 +40,31 @@ namespace Lichtcore.Tweening
             FindPlayablesInHierarchy();
         }
         
-        private void Start()
-        {
-            if (rewindOnStart)
-            {
-                Rewind();
-            }
-            
-            if (playOnStart)
-            {
-                DOVirtual.DelayedCall(0f, RewindAndPlayForward).SetUpdate(true);
-            }
-        }
+        // private void Start()
+        // {
+        //     if (rewindOnStart)
+        //     {
+        //         Rewind();
+        //     }
+        //     
+        //     if (playOnStart)
+        //     {
+        //         DOVirtual.DelayedCall(0f, RewindAndPlayForward).SetUpdate(true);
+        //     }
+        // }
         
-        private void OnEnable()
-        {
-            if (rewindOnEnable)
-            {
-                Rewind();
-            }
-            
-            if (playOnEnable)
-            {
-                DOVirtual.DelayedCall(0f, RewindAndPlayForward).SetUpdate(true);
-            }
-        }
+        // private void OnEnable()
+        // {
+        //     if (rewindOnEnable)
+        //     {
+        //         Rewind();
+        //     }
+        //     
+        //     if (playOnEnable)
+        //     {
+        //         DOVirtual.DelayedCall(0f, RewindAndPlayForward).SetUpdate(true);
+        //     }
+        // }
 
         public override void PlayForward()
         {
