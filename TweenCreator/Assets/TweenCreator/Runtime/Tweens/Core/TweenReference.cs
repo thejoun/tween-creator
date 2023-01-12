@@ -1,9 +1,8 @@
 ﻿using System.Linq;
-using TweenCreator;
 using TypeSwitcher;
 using UnityEngine;
 
-namespace Lichtcore.Tweening
+namespace TweenCreator.Tweens
 {
     [TypeCategory(TweenCategory.Core)]
     public class TweenReference : TweenPlayable

@@ -1,10 +1,9 @@
 ﻿using DG.Tweening;
 using TMPro;
-using TweenCreator;
 using TypeSwitcher;
 using UnityEngine;
 
-namespace Lichtcore.Tweening
+namespace TweenCreator.Tweens
 {
     [TypeCategory(TweenCategory.Basic)]
     public class TweenTextColor : TweenCustomPlayable

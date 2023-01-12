@@ -1,5 +1,4 @@
-﻿using Lichtcore.Tweening;
-using UnityEditor;
+﻿using UnityEditor;
 using UnityEngine;
 
 namespace TweenCreator.Editor

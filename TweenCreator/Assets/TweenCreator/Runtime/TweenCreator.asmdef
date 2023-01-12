@@ -1,0 +1,22 @@
+{
+    "name": "TweenCreator",
+    "rootNamespace": "TweenCreator",
+    "references": [
+        "GUID:32a8ee69f3860594ba6c518a26ebff15",
+        "GUID:0bd4bc4037fdeb44881ee07b84baa109",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:4a27d636c21081747a8c6b481cccc046"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "DOTween.dll",
+        "DOTweenEditor.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

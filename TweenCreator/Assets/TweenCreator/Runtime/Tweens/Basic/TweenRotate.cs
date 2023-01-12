@@ -1,9 +1,8 @@
 ﻿using DG.Tweening;
-using TweenCreator;
 using TypeSwitcher;
 using UnityEngine;
 
-namespace Lichtcore.Tweening
+namespace TweenCreator.Tweens
 {
     [TypeCategory(TweenCategory.Basic)]
     public class TweenRotate : TweenCustomPlayable

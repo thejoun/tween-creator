@@ -2,14 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using DG.Tweening;
-using TweenCreator;
 using TypeSwitcher;
-using UnityEngine;
-#if UNITY_EDITOR
 using UnityEditor;
-#endif
+using UnityEngine;
 
-namespace Lichtcore.Tweening
+namespace TweenCreator.Tweens
 {
     [TypeCategory(TweenCategory.Core)]
     public class TweenGroup : TweenPlayable

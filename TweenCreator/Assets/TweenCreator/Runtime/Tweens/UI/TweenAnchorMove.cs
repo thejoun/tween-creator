@@ -1,9 +1,8 @@
 ﻿using DG.Tweening;
-using TweenCreator;
 using TypeSwitcher;
 using UnityEngine;
 
-namespace Lichtcore.Tweening
+namespace TweenCreator.Tweens
 {
     [TypeCategory(TweenCategory.UI)]
     public class TweenAnchorMove : TweenCustomPlayable
@@ -18,6 +17,7 @@ namespace Lichtcore.Tweening
         public override void PlayForward()
         {
             PlaySingleTween(tr.DOAnchorPos(target, duration));
+            
         }
 
         public override void PlayBackwards()

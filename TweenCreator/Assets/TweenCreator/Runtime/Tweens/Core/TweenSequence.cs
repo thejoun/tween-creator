@@ -1,7 +1,6 @@
 ﻿using System.Linq;
-using TweenCreator;
 
-namespace Lichtcore.Tweening
+namespace TweenCreator.Tweens
 {
     public class TweenSequence : TweenGroup
     {

@@ -1,6 +1,10 @@
 {
-    "name": "TweenPreview",
-    "references": [],
+    "name": "TweenEditor",
+    "rootNamespace": "TweenCreator.Editor",
+    "references": [
+        "TweenCreator",
+        "TypeSwitcher"
+    ],
     "includePlatforms": [
         "Editor"
     ],

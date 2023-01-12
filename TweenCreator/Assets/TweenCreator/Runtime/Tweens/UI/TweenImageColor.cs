@@ -1,10 +1,9 @@
 ﻿using DG.Tweening;
-using TweenCreator;
 using TypeSwitcher;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Lichtcore.Tweening
+namespace TweenCreator.Tweens
 {
     [TypeCategory(TweenCategory.UI)]
     public class TweenImageColor : TweenCustomPlayable
