@@ -7,7 +7,7 @@ Package not available yet.
 #### Tweens defined in components
 ![Component](img/component.png)
 
-#### Intuitive set up of groups and sequences in hierarchy
+#### Intuitive composition of groups and sequences in hierarchy
 ![Hierarchy](img/hierarchy.png)
 
 #### Instant preview in editor mode (no side effects!)
