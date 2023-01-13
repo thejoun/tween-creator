@@ -1,8 +1,16 @@
 # Tween Creator
 
-Easy and intuitive tweening tool for Unity, based on DOTween.
+[![openupm](https://img.shields.io/npm/v/com.thejoun.tween-creator?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.thejoun.tween-creator/)
 
-Package not available yet.
+## Installation
+
+See "Installation" on [OpenUPM](https://openupm.com/packages/com.thejoun.tween-creator).
+Add these scopes:
+- `com.thejoun`
+- `com.solidalloy`
+- `org.nuget`
+
+## Features
 
 #### Tweens defined in components
 ![Component](img/component.png)
@@ -42,6 +50,10 @@ public class TweenScale : TweenCustomPlayable
     }
 }
 ```
+
+#### Custom eases as animation curves
+
+![Curve](img/curve.png)
 
 ### Dependencies
 
