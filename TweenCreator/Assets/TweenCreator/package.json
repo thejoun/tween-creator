@@ -1,6 +1,6 @@
 {
   "name": "com.thejoun.tween-creator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "Tween Creator",
   "description": "Create and preview composite DOTween tweens in the editor",
   "keywords": ["editor", "tween", "preview", "dotween"],
