@@ -111,7 +111,9 @@ namespace TweenCreator.Editor
 
             if (DiscardChangesOnExitPreview)
             {
+#if UNITY_2021_2_OR_NEWER
                 base.DiscardChanges();
+#endif
             }
         }
         
